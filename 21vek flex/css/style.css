@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  
+  input::-ms-clear {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.texth6 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.proposes {
+    width: 1090px;
+    height: 360px;
+    margin: 0 auto;
+    /* border: 3px solid black; */
+}
+
+.headeroffers {
+    height: 28px;
+    margin-bottom: 28px;
+}
+
+.contentoffers {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px -10px; */
+}
+
+.offer-link {
+    color: black;
+    /* padding: 0px 10px; */
+}
+
+.offer {
+    border: 1px solid #e6e8eb;
+    border-radius: 10px;
+    flex: 0 1 25%; 
+    max-width: 208px;
+    height: 290px;
+}
+
+.offer-content {
+    padding: 15px;
+}
+
+
+.offer-title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    /* color: #1a1a1a; */
+}
+
+.offer-desctiption {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.selfdelievery {
+    background: url('../img/bg1.png');
+    /* width: 100%; */
+    /* max-width: 208px; */
+    /* height: 100%;
+    max-height: 308px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 100%;
+    background-position-x: 100%;
+}
+
+.selfdelievery:hover {
+    border-color: #faaa32;
+    color: #faaa32;
+}
+
+.delieverybelarus:hover {
+    border-color: #e52e6b;
+    color: #e52e6b;
+}
+
+.pays:hover {
+    border-color: #07c;
+    color: #07c;
+}
+
+.bonus:hover {
+    border-color: #099951;
+    color: #099951;
+}
+
+.sertificates:hover {
+    border-color: #7b3eb8;
+    color: #7b3eb8;
+}
